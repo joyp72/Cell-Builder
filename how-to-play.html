@@ -1,42 +1,62 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Cell Game</title>
+		<title>Cell Builder</title>
 		<link rel="stylesheet" href="css/index.css">
-
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap" rel="stylesheet">
 	</head>
 
 	<body>
-		<div id="page">
-			<div id="logo">
-				<img src="https://placehold.co/160x50?text=cool logo" alt="logo" />
+		<header>
+            <div class="header-container">
+                <a href="/">
+                    <img src="https://placehold.co/108x50?text=cool logo" alt="Cell Builder">
+                </a>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="/">Home</a>
+                        </li>
+                        <li>
+                            <a href="project.html">Project</a>
+                        </li>
+                        <li>
+                            <a href="how-to-play.html" class="on">How To Play</a>
+                        </li>
+                        <li>
+                            <a href="documents.html">Documents</a>
+                        </li>
+                        <li>
+                            <a href="team.html">Team</a>
+                        </li>
+                        <li>
+                            <a href="https://uml.umassonline.net/" target="_blank" class="btn">Records</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+		<main>
+			<div class="background-container">
+				<h2>Objective</h2>
+				<p class="desc">The gameplay revolves around the player having to manage resources in order to
+					improve their cells. Resource producing organelles may generate one of three key assets:
+					DNA, ATP, and protein. DNA is used to upgrade and evolve cells, ATP is used as a fuel
+					source, and protein is used to upgrade organelles within the cells. Evolving a cell into its
+					next stage unlocks additional organelles that may help increase resource production. <br><br>
+					Resource producing organelles will also produce waste for which the player must make
+					use of Lysosome organelles in order to dispose of it. If the waste is not removed from the
+					producer, it will cease to produce further resources until it is cleared of waste.</p>
 			</div>
-			<ul id="navigation">
-				<li><a href="index.html">Home</a></li>
-				<li><a href="project.html">Project</a></li>
-				<li><a href="how-to-play.html" class="on">How to Play</a></li>
-				<li><a href="documents.html">Documents</a></li>
-				<li><a href="team.html">Team</a></li>
-			</ul>
-			<h1>Objective</h1>
-			<p>
-				'brief description'
-			</p>
-            <h1>Controls</h1>
-			<p>
-				'basic inputs'
-			</p>
-            <h1>UI</h1>
-			<p>
-				'explaination of ui elements'
-			</p>
-            <h1>Saving the game</h1>
-			<p>
-				'about saving/loading game data'
-			</p>
-		</div>
+			<div class="background-container">
+				<h2>Controls</h2>
+			</div>
+			<div class="background-container">
+				<h2>UI</h2>
+			</div>
+			<div class="background-container">
+				<h2>Saving/Loading</h2>
+			</div>
+		</main>
 	</body>
 </html>

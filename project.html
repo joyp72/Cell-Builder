@@ -1,42 +1,81 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Cell Game</title>
+		<title>Cell Builder</title>
 		<link rel="stylesheet" href="css/index.css">
-
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap" rel="stylesheet">
 	</head>
 
 	<body>
-		<div id="page">
-			<div id="logo">
-				<img src="https://placehold.co/160x50?text=cool logo" alt="logo" />
+		<header>
+            <div class="header-container">
+                <a href="/">
+                    <img src="https://placehold.co/108x50?text=cool logo" alt="Cell Builder">
+                </a>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="/">Home</a>
+                        </li>
+                        <li>
+                            <a href="project.html" class="on">Project</a>
+                        </li>
+                        <li>
+                            <a href="how-to-play.html">How To Play</a>
+                        </li>
+                        <li>
+                            <a href="documents.html">Documents</a>
+                        </li>
+                        <li>
+                            <a href="team.html">Team</a>
+                        </li>
+                        <li>
+                            <a href="https://uml.umassonline.net/" target="_blank" class="btn">Records</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+		<main>
+			<div class="background-container">
+                <h2>Project Backgroud</h2>
+				<p class="desc">Knowledge on cells and how they work are a fundamental building block needed
+					to understand the world around us. Without understanding cells, you can’t understand any
+					other life form, since we’re all made of cells. This has inspired us to make an educational
+					game to teach kids about the basics of cells. <br><br>Educational games have the potential to offer
+					an experience that is both enlightening and entertaining at the same time to create a
+					memorable understanding of the concepts that it is trying to teach to the player.</p>
+            </div>
+			<div class="background-container">
+				<div class="vert-container">
+					<h2>Project Description</h2>
+					<p class="vert-desc">The gameplay revolves around the player having to manage resources in order to
+					improve their cells. Resource producing organelles may generate one of three key assets:
+					DNA, ATP, and protein. <br><br>The game provides a satisfying positive feedback loop, where the player seeks
+					to increase their production rate to get more resources by increasing their production rate
+					by collecting more resources, and so on.</p>
+				</div>
+				<img src="images/function.png" alt="function showcase">
 			</div>
-			<ul id="navigation">
-				<li><a href="index.html">Home</a></li>
-				<li><a href="project.html" class="on">Project</a></li>
-				<li><a href="how-to-play.html">How to Play</a></li>
-				<li><a href="documents.html">Documents</a></li>
-				<li><a href="team.html">Team</a></li>
-			</ul>
-			<h1>Project Backround</h1>
-			<p>
-				Knowledge on cells and how they work are a fundamental building block needed to understand the world around us. Without understanding cells, you can't understand any other life form, since we're all made of cells. This has inspired us to make an educational game to teach kids about the basics of cells.
-			</p>
-            <h1>Project Description</h1>
-			<p>
-				This is an educational resource management game about basic biology. Manage your cells by producing and spending resources to upgrade organelles, undergo mitosis, and creating new types of cells.
-			</p>
-            <h1>Installation</h1>
-			<p>
-				'releases and instructions'
-			</p>
-            <h1>Resources</h1>
-			<p>
-				'bibliography and stuff'
-			</p>
-		</div>
+			<div id="installation" class="background-container">
+				<h2>Installation</h2>
+				<p class="desc">1. Download the zip from the releases section <a href="https://github.com/joyp72/Cell-Builder/releases/tag/Release" style="color: white; text-decoration:underline">here</a><br>
+					2. Extract files into a new folder <br>
+					3. Run the executable inside to play!
+				</p>
+			</div>
+			<div class="background-container">
+				<h2>Resources</h2>
+				<p class="resource-desc">
+					[1] D. Thakore and S. Biswas, “Routing with Persistent Link Modeling in Intermittently
+					Connected Wireless Networks,” Proceedings of IEEE Military Communication, Atlantic
+					City, October 2005. <br><br>
+					[2] Unity Technologies. (2022). Unity (Version 2022.3.10f1) [Game Engine].
+					https://unity3d.com/ <br><br>
+					[3] Unity Technologies. (2022). Unity Documentation (Version 2022.3)
+					[Documentation]. https://docs.unity3d.com/2022.3/Documentation/ScriptReference/
+				</p>
+			</div>
+		</main>
 	</body>
 </html>

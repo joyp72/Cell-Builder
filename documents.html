@@ -1,41 +1,54 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Cell Game</title>
+		<title>Cell Builder</title>
 		<link rel="stylesheet" href="css/index.css">
-
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap" rel="stylesheet">
 	</head>
 
 	<body>
-		<div id="page">
-			<div id="logo">
-				<img src="https://placehold.co/160x50?text=cool logo" alt="logo" />
+		<header>
+            <div class="header-container">
+                <a href="/">
+                    <img src="https://placehold.co/108x50?text=cool logo" alt="Cell Builder">
+                </a>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="/">Home</a>
+                        </li>
+                        <li>
+                            <a href="project.html">Project</a>
+                        </li>
+                        <li>
+                            <a href="how-to-play.html">How To Play</a>
+                        </li>
+                        <li>
+                            <a href="documents.html" class="on">Documents</a>
+                        </li>
+                        <li>
+                            <a href="team.html">Team</a>
+                        </li>
+                        <li>
+                            <a href="https://uml.umassonline.net/" target="_blank" class="btn">Records</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+		<main>
+			<div class="dl-container">
+				<h3>System Requirements Documentation v1</h3>
+				<a href="files/cell-builder-srs-v1.pdf" target="_blank" class="dl-btn-srs">cell-builder-srs-v1.pdf</a>
+				<h3>Requirements</h3>
+				<a href="" target="_blank" class="dl-btn-srs">cell-builder-requirements.pdf</a>
+				<h3>Use Case Diagrams</h3>
+				<a href="images/use_case.png" target="_blank" class="dl-btn-srs">cell-builder-use-case.png</a>
+				<h3>Class Diagrams</h3>
+				<a href="images/class.png" target="_blank" class="dl-btn-srs">cell-builder-class.png</a>
+				<h3>Sequence Diagrams</h3>
+				<a href="images/sequence.png" target="_blank" class="dl-btn-srs">cell-builder-sequence.png</a>
 			</div>
-			<ul id="navigation">
-				<li><a href="index.html">Home</a></li>
-				<li><a href="project.html">Project</a></li>
-                <li><a href="how-to-play.html">How to Play</a></li>
-				<li><a href="documents.html" class="on">Documents</a></li>
-				<li><a href="team.html">Team</a></li>
-			</ul>
-            <h1>SRS</h1>
-			<p>
-				'placeholder'
-			</p>
-            <h1>Requirements and Use Cases</h1>
-			<div id="col">
-				<img src="images/use_case.png" alt="" style="width: 800px;">
-			</div>
-			<h1>Class and Sequence Diagrams</h1>
-			<div id="col">
-				<img src="images/class.png" alt="" style="width: 800px;">
-			</div>
-			<div id="col">
-				<img src="images/sequence.png" alt="" style="width: 800px;">
-			</div>
-		</div>
+		</main>
 	</body>
 </html>

@@ -1,61 +1,198 @@
 body {
-    font-size: 80%;
-    font-family: Heebo;
-    letter-spacing: 0.15em;
-    background-color: rgb(210, 210, 210);
+    font-family: "AvenirNextLTPro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    background-color: #2c3038;
 }
-
-#page {
-    margin: 10px auto;
-    border: 4px double;
-    padding: 20px;
-    max-width: 940px;
-    min-width: 720px;
-    width: 100%;
-    box-sizing: border-box;
-}
-
-#logo {
-    width: 150px;
-    margin: 10px auto 25px auto;
-}
-
-#navigation {
-    width: 800px;
-    padding: 15px;
-    margin: 0px auto;
-    border-top: 2px solid;
-    border-bottom: 1px solid;
-    list-style-type: none;
-    text-align: center;
-}
-
-#navigation li {
-    display: inline;
-    margin: 0 3px;
-}
-
-a {
-    color: black;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-weight: 700;
+header {
+    margin: 0;
     font-size: 1rem;
-    padding: 6px 18px 5px 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #222;
+    text-align: left;
+    background-color: white;
+    border-radius: 10px;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto 0 auto;
 }
 
+a img {
+    margin-left: 30px;
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.background-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    width: 70%;
+    margin-top: 40px;
+}
+.vert-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.dl-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.vert-desc {
+    text-align: left;
+    margin: 0;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+
+}
+.img-container {
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+}
+nav {
+    padding-right: 20px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+a {
+    text-decoration: none;
+}
+li a {
+    color: #222;
+    display: block;
+    padding: 0.75rem 1rem;
+    cursor: pointer;
+}
 a:hover {
-    color: rgb(55, 106, 199);
+    color: #0069e0;
 }
-
 .on {
-    color: rgb(62, 121, 231);
+    color: #0069e0;
+}
+.btn {
+    color: white;
+    background-color: #0069e0;
+    border-color: #0069e0;
+    padding: 4px 12px 4px 12px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.btn:hover {
+    color: white;
+    opacity: 95%;
+}
+main {
+    color: white;
+}
+h1 {
+    font-size: 3.75rem;
+    font-weight: 400;
+    line-height: 1.1;
+    text-align: center;
+    margin: 60px 0 15px 0;
+}
+h2 {
+    font-size: 2.75rem;
+    font-weight: 400;
+    line-height: 1.1;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 10px;
+    min-width: 210px;
+}
+h3 {
+    font-size: 1.75rem;
+    font-weight: 400;
+    line-height: 1.1;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    min-width: 210px;
+}
+p {
+    font-size: 1.5rem;
+    font-weight: 100;
+    text-align: center;
+    margin: 20px;
+    margin-top: 0;
+}
+.desc {
+    text-align: left;
+    margin-left: 10%;
+}
+.resource-desc {
+    text-align: left;
+    margin-left: 10%;
+    font-size: 1rem;
+}
+.dl-btn {
+    color: white;
+    background-color: #0069e0;
+    border-color: #0069e0;
+    padding: .3125rem 1rem;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.5;
+    text-align: center;
+    width: 111px;
+    height: 36px;
+}
+.dl-btn-srs {
+    color: white;
+    background-color: #0069e0;
+    border-color: #0069e0;
+    padding: .1125rem 1rem;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 2;
+    text-align: center;
+    height: 36px;
+}
+.dl-btn-srs:hover {
+    color: white;
+    opacity: 95%;
+}
+.dl-btn:hover {
+    color: white;
+    opacity: 95%;
+}
+.platforms {
+    font-size: 0.875rem;
+    text-align: center;
+    font-weight: 200;
+    margin-top: 5px;
+}
+.img-container img {
+    max-width: 250px;
 }
 
-p , h1 {
-    text-align: center;
-    width: 600px;
-    margin: 15px auto;
+.background-container img {
+    max-width: 500px;
+    margin-left: 40px;
+    border-radius: 10px;
 }
 
 #row {
