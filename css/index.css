@@ -184,6 +184,7 @@ p {
     text-align: center;
     font-weight: 200;
     margin-top: 5px;
+    width: 100%;
 }
 .img-container img {
     max-width: 250px;
@@ -212,4 +213,10 @@ p {
 #profile {
     box-shadow: 0.2rem 0.2rem 0.5rem black;
     margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .img-container {
+        width: 60%;
+    }
 }
